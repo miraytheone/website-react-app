@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-size: 16px;
+ }
+#footer{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+    grid-template-rows: 3fr 1fr;
+    grid-gap: 1rem;
+    background:	#9370DB;
+    border: none;
+    
+}
+#footer div:first-child{
+    margin-left: 10vw;
+}
+#footer div:nth-child(4){
+    margin-right: 10vw;
+}
+.footerBoxCopyright{
+    grid-column:1/span 4 ;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-bottom: 1rem;
+    color: 	#D32F2F;
+    border: none;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background: lightgray;
+}
+
+.footerBox{
+    padding: 1rem;
+    background: none;
+    border: none;
+}
+
+.footerBox img{
+    width: 33%;
+    margin-bottom: 1rem;
+    
+}
+.footerBox p{
+    font-size: 1.2rem;
+    color: white;
+    margin: 0.5rem 0;
+}
+.footerBox h3{
+    color: white;
+    font-size: 2rem;
+}
+.footerBox form#iletisimForm{
+    display: flex;
+    flex-direction: column;
+}
+.footerBox form button{
+    margin: 1rem 0;
+    padding: 1rem 0;
+    background: red;
+    font-weight: bolder;
+    color: white;
+}
+.footerBox form #emailBox{
+    
+    padding: 0.5rem;
+    
+}
+.footerBox ul{
+    list-style: none;
+    color: white;
+}
+.footerBox ul li{
+    border-bottom: 2px dotted white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.footerBox a.uyeBtn{
+    display: block;
+    background: yellow;
+    width: 5rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+margin: 1rem;}
